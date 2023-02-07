@@ -31,6 +31,14 @@ Firstly, we must enter the feedforward and feedback gains which we obtained from
       :lines: 48-58
       :linenos:
       :lineno-start: 48
+ 
+  .. group-tab:: Python
+
+    .. remoteliteralinclude:: https://raw.githubusercontent.com/robotpy/examples/main/commands-v2/ramsete/constants.py
+      :language: python
+      :lines: 37-45
+      :linenos:
+      :lineno-start: 37
 
 DifferentialDriveKinematics
 ---------------------------
@@ -54,6 +62,14 @@ Additionally, we must create an instance of the ``DifferentialDriveKinematics`` 
       :lines: 38-39
       :linenos:
       :lineno-start: 38
+      
+  .. group-tab:: Python
+
+    .. remoteliteralinclude:: https://raw.githubusercontent.com/robotpy/examples/main/commands-v2/ramsete/constants.py
+      :language: python
+      :lines: 27-28
+      :linenos:
+      :lineno-start: 27
 
 Max Trajectory Velocity/Acceleration
 ------------------------------------
@@ -77,6 +93,14 @@ We must also decide on a nominal max acceleration and max velocity for the robot
       :lines: 62-63
       :linenos:
       :lineno-start: 62
+       
+  .. group-tab:: Python
+
+    .. remoteliteralinclude:: https://raw.githubusercontent.com/robotpy/examples/main/commands-v2/ramsete/constants.py
+      :language: python
+      :lines: 48-49
+      :linenos:
+      :lineno-start: 48
 
 Ramsete Parameters
 ------------------
@@ -100,3 +124,11 @@ Finally, we must include a pair of parameters for the RAMSETE controller.  The v
       :lines: 65-68
       :linenos:
       :lineno-start: 65
+        
+  .. group-tab:: Python
+
+    .. remoteliteralinclude:: https://raw.githubusercontent.com/robotpy/examples/main/commands-v2/ramsete/constants.py
+      :language: python
+      :lines: 51-54
+      :linenos:
+      :lineno-start: 51
